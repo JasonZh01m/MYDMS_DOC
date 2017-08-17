@@ -1,0 +1,11 @@
+.mymetadata
+.checkstyle
+.classpath
+.project
+.class
+.idea
+*.iml
+.settings/*
+/indexes/*
+/target/*
+/bin
