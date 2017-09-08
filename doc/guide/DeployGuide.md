@@ -31,15 +31,16 @@
 
 ## 部署war/ear
 
-* 将 */war* 下的 `bpm-dsm.war` 和 `zMYDMSLockApp.ear` 拷贝到 GP */server/default/deploy* 目录下，用解压软件打开 `bpm-dsm.war` 包（不需要解压），打开 `dms.properties` 文件。
-
-![](img/war.png)
+* 将 [附件](https://git.oschina.net/digiwin/MYDMS_DOC/attach_files) 下的 `bpm-dsm.war` 和 `zMYDMSLockApp.ear` 拷贝到 GP */server/default/deploy* 目录下，用解压软件打开 `bpm-dsm.war` 包（不需要解压），打开 `WEB-INF/classes/dms.properties` 文件。
 
 ![](img/unzipwar.png)
 
 * 修改数据库信息为当前GP的数据库信息，然后保存，重启Jboss。
 
 ![](img/datasource.png)
+
+> **注意** 如果ORACLE数据库版本为12C,则 `bpm-dms.war` 中 `WEB-INF/lib` 替换为 [附件](https://git.oschina.net/digiwin/MYDMS_DOC/attach_files) 中的 `ojdbc6.jar`, 如果为12C以下版本，则替换为 `ojdbc14-10.2.0.4.0.jar`，如下图：
+![](img/ojdbc.png)
 
 ## 模组程式维护
 
