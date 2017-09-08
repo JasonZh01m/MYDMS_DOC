@@ -39,7 +39,8 @@
 
 ![](img/datasource.png)
 
-> **注意** 如果ORACLE数据库版本为12C,则 `bpm-dms.war` 中 `WEB-INF/lib` 替换为 [附件](https://git.oschina.net/digiwin/MYDMS_DOC/attach_files) 中的 `ojdbc6.jar`, 如果为12C以下版本，则替换为 `ojdbc14-10.2.0.4.0.jar`，如下图：
+> **注意** 如果ORACLE数据库版本不是12C,则 `bpm-dms.war` 中 `/WEB-INF/lib/ojdbc6.jar` 替换为 [附件](https://git.oschina.net/digiwin/MYDMS_DOC/attach_files) 中的 `ojdbc14-10.2.0.4.0.jar`，如下图：
+
 ![](img/ojdbc.png)
 
 ## 模组程式维护
