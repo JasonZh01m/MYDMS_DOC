@@ -10,7 +10,7 @@
 
 ## 初始化数据库
 
-* 在路径 */doc/sql/oracle* 中，依次执行 `create_table.sql` 跟 `insert_data.sql`，将表和初始化数据插入到数据库中。
+* 在路径 */doc/sql/oracle* 中，依次执行 `create_table.sql` 跟 `insert_data.sql`，将表和初始化数据插入到数据库中（*请记得提交数据*）。
 
 ![](img/initsql.png)
 
